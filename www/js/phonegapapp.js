@@ -20,7 +20,7 @@ phonegapapp = {
   // are we on a phonegap app?
   phonegap: true,
   // are we testing PhoneGap or not?
-  test: false,
+  test: true,
   // Application Constructor
   initialize: function() {
     this.bindEvents();
