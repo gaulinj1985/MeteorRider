@@ -41,12 +41,12 @@ phonegapapp = {
   // The scope of 'this' is the event. In order to call the 'receivedEvent'
   // function, we must explicity call 'phonegapapp.receivedEvent(...);'
   onDeviceReady: function() {
-    // phonegapapp.receivedEvent('deviceready');
-    // if (this.test) {
-    //   $('phonegapapp-test').show();
-    // } else {
-    //   phonegapapp.meteorRider();
-    // }
+    phonegapapp.receivedEvent('deviceready');
+    if (this.test) {
+      $('phonegapapp-test').show();
+    } else {
+      phonegapapp.meteorRider();
+    }
   },
   // Update DOM on a Received Event
   receivedEvent: function(id) {
