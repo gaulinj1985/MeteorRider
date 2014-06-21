@@ -1,0 +1,15 @@
+body{
+	background:url(../images/bg.jpg);
+	text-align: center;
+}
+
+.logo{
+	background:url(../images/logo.png);
+	width:149px;
+	height: 174px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-top: -87px;
+	margin-left: -74px;
+}
