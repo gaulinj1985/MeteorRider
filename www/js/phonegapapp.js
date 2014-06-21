@@ -34,7 +34,6 @@ phonegapapp = {
     document.addEventListener('load', this.onDeviceLoad, false);
   },
   onDeviceLoad: function() {
-    $('phonegapapp-test').show();
     alert('load')
   },
   // deviceready Event Handler

@@ -71,7 +71,6 @@ var MeteorRider = {
         //     all old JS remains (unless overwritten, name collision)
         //     all HTML is replaced/overwritten
         //     all new CSS/JS is loaded
-        alert(data)
         document.open();
         document.write(data);
         document.close();
