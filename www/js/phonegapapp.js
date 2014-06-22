@@ -31,10 +31,6 @@ phonegapapp = {
   // 'load', 'deviceready', 'offline', and 'online'.
   bindEvents: function() {
     document.addEventListener('deviceready', this.onDeviceReady, false);
-    document.addEventListener('load', this.onDeviceLoad, false);
-  },
-  onDeviceLoad: function() {
-    alert('load')
   },
   // deviceready Event Handler
   //
