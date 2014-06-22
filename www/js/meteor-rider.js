@@ -72,7 +72,7 @@ var MeteorRider = {
         //     all HTML is replaced/overwritten
         //     all new CSS/JS is loaded
           alert($('.logo').length)
-          $('.logo').hide()
+          $('.logo').fadeOut()
           $('.logo').delay(3000).fadeOut(500, function(){
             alert('doc')
             // document.open();
