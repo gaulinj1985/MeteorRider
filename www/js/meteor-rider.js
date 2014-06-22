@@ -71,12 +71,12 @@ var MeteorRider = {
         //     all old JS remains (unless overwritten, name collision)
         //     all HTML is replaced/overwritten
         //     all new CSS/JS is loaded
-          alert($('.logo'))
+          alert($('.logo').length())
           $('.logo').delay(3000).fadeOut(500, function(){
             alert('doc')
-            document.open();
-            document.write(data)
-            document.close();
+            // document.open();
+            // document.write(data)
+            // document.close();
           })
         // trigger the "loaded" events (it'd be nice to do this AFTER JS has loaded
         $(document).trigger('DOMContentLoaded');
