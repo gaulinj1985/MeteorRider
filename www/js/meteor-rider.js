@@ -73,6 +73,7 @@ var MeteorRider = {
         //     all new CSS/JS is loaded
         
           $('.logo').delay(3000).fadeOut(500, function(){
+            alert('doc')
             document.open();
             document.write(data)
             document.close();
