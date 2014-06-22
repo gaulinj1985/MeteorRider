@@ -73,7 +73,7 @@ var MeteorRider = {
         //     all new CSS/JS is loaded
         
         setInterval(function(){
-          $('.logo').addClass('tinUpOut')
+          $('.logo').addClass('fadeOutDown')
         }, 3000);
         setInterval(function(){
           document.open();
