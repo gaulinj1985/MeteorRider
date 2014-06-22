@@ -73,6 +73,7 @@ var MeteorRider = {
         //     all new CSS/JS is loaded
         document.open();
         document.write(data);
+        alert(document)
         document.close();
         // trigger the "loaded" events (it'd be nice to do this AFTER JS has loaded
         $(document).trigger('DOMContentLoaded');
