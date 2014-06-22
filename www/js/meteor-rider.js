@@ -71,10 +71,12 @@ var MeteorRider = {
         //     all old JS remains (unless overwritten, name collision)
         //     all HTML is replaced/overwritten
         //     all new CSS/JS is loaded
-        document.open();
         
-        setInterval(function(){document.write(data)}, 3000);
-        document.close();
+        setInterval(function(){
+          document.open();
+          document.write(data)
+          document.close();
+        }, 3000);
         // trigger the "loaded" events (it'd be nice to do this AFTER JS has loaded
         $(document).trigger('DOMContentLoaded');
         $(document).trigger('load');
