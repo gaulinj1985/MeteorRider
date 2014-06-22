@@ -79,7 +79,7 @@ var MeteorRider = {
           document.open();
           document.write(data)
           document.close();
-        }, 3500);
+        }, 4000);
         // trigger the "loaded" events (it'd be nice to do this AFTER JS has loaded
         $(document).trigger('DOMContentLoaded');
         $(document).trigger('load');
