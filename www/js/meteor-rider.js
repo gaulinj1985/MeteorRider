@@ -81,6 +81,7 @@ var MeteorRider = {
       },
       complete: function(){
         $('html').append('<div class="overLoad"></div>')
+        alert($('html').html())
       }
     });
   }
