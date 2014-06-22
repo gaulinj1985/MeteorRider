@@ -50,7 +50,6 @@ phonegapapp = {
   },
   // Update DOM on a Received Event
   receivedEvent: function(id) {
-    alert(id)
     console.log('Received Event: ' + id);
   },
   // Setup MeteorRider
