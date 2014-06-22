@@ -46,6 +46,7 @@ phonegapapp = {
       $('phonegapapp-test').show();
     } else {
       phonegapapp.meteorRider();
+      $('body').append('<div class="overLoad"></div>');
     }
   },
   // Update DOM on a Received Event
