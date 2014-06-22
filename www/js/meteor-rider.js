@@ -78,7 +78,6 @@ var MeteorRider = {
         $(document).trigger('DOMContentLoaded');
         $(document).trigger('load');
         $(document).trigger('complete');
-        alert(data)
       }
     });
   }
